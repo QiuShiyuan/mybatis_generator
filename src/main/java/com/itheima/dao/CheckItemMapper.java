@@ -27,4 +27,7 @@ public interface CheckItemMapper {
     int updateByPrimaryKeySelective(CheckItem record);
 
     int updateByPrimaryKey(CheckItem record);
+
+    int updateByPrimaryKey11(CheckItem record);
+
 }
